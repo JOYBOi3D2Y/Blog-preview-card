@@ -10,25 +10,84 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 2rem;}
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    .card{
+      max-width: 330PX;
+      text-align: center;
+      border-radius: 15px;
+      background-color: hsl(0, 0%, 100%);
+      box-shadow: 8px 8px;
+      padding: 17px 1px 5px 1px;
+      outline-color: black;
+      outline-style: solid;
+      outline-width: thin;
+    }
+    body{
+      background-color: hsl(47, 88%, 63%);
+      min-height: 110vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    p{
+      color: hsl(0, 0%, 42%);
+      font-size: 14px;
+      padding-right: 7%;
+    }
+    .text-clr{
+      color: hsl(0, 0%, 42%);
+      font-size: 12px;
+    }
+    img{
+      border-radius: 10px 10px 10px 10px;
+      max-width: 90%;
+    }
+    .container{
+      text-align: left;
+      padding-left: 20px;
+      font-family: "Figtree", sans-serif;
+      font-style: normal;    
+    }
+    .yellow-box{
+      background-color: hsl(47, 88%, 63%);
+      padding: 6px 6px 6px 15px;
+      max-width: 20%;
+      border-radius: 5px 5px 5px 5px;
+    }
+    .userimg{
+      max-width: 12%;
+      float: left;
+      margin-right: 8px;
+    }
+    .username{
+      padding-top: 4px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    .title:hover{
+      color: hsl(47, 88%, 63%);
+    }
   </style>
 </head>
 <body>
+  <div class="card">
+    <img src="assets/images/illustration-article.svg" alt="BLOG preview card to frontendmentor.io">
+    <div class="container">
+      <h5 class="yellow-box">Learning</h5>
+      <h5 class="text-clr">Published 21 Dec 2023</h5>
+      <h3 class="title">HTML & CSS foundations</h3>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.<p>
+      <img class="userimg" src="assets/images/image-avatar.webp"  alt="Greg Hooper">
+      <h5 class="username">Greg Hooper</h5>
+    </div>
+  </div>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/JOYBOi3D2Y">JOYBOi3D2Y</a>.
   </div>
 </body>
 </html>
